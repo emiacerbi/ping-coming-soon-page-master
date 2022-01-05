@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+    <title>Ping coming soon page</title>
+    <script src="https://kit.fontawesome.com/e5abeab91a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header"></header>
+            <img src="/images/logo.svg" alt="ping logo" class="header__image">
+        </header>
+
+        <main class="main">
+            <p class="main__title">We are launching <span class="accent">soon!</span></p>
+            <p class="main__text">Subscribe and get notified</p>
+            <div class="split">
+                <input type="text" class="main__email" id="input" placeholder="Your email adress...">
+                <p id="main__error">Please provide a valid email adress</p>
+                <button class="main__btn" id="btn">Notify Me</button>
+            </div>
+        </main>
+
+        <article class="graph">
+            <img src="/images/illustration-dashboard.png" alt="" class="graph__image">
+        </article>
+
+        <footer class="footer">
+            <div class="footer__icons">
+                <i class="fab fa-facebook-f padding"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+
+            <p class="footer__copyright">© Copyright Ping. All rights reserved.</p>
+        </footer>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
