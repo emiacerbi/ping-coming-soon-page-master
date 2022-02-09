@@ -44,5 +44,5 @@ I learned how to work with icons from fontawesome, it was pretty fun.
 
 ## Author
 
-`Emiliano Acerbi`
+`Emi Acerbi`
 
